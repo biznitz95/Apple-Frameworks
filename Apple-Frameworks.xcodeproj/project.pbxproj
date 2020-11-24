@@ -17,6 +17,7 @@
 		9E9DD493256CE09F00D8DC0C /* FrameworkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DD492256CE09F00D8DC0C /* FrameworkDetailView.swift */; };
 		9E9DD49F256CFE0C00D8DC0C /* AFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DD49E256CFE0C00D8DC0C /* AFButton.swift */; };
 		9E9DD4A2256D02FB00D8DC0C /* FrameworkGridViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DD4A1256D02FB00D8DC0C /* FrameworkGridViewModel.swift */; };
+		9E9DD4A6256DA29800D8DC0C /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E9DD4A5256DA29800D8DC0C /* SafariView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		9E9DD492256CE09F00D8DC0C /* FrameworkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkDetailView.swift; sourceTree = "<group>"; };
 		9E9DD49E256CFE0C00D8DC0C /* AFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AFButton.swift; sourceTree = "<group>"; };
 		9E9DD4A1256D02FB00D8DC0C /* FrameworkGridViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkGridViewModel.swift; sourceTree = "<group>"; };
+		9E9DD4A5256DA29800D8DC0C /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				08628331256664EF00667ACE /* Framework.swift */,
 				08628338256666E200667ACE /* Apple_FrameworksApp.swift */,
 				086283402566677900667ACE /* FrameworkGridView.swift */,
+				9E9DD4A5256DA29800D8DC0C /* SafariView.swift */,
 				9E9DD4A1256D02FB00D8DC0C /* FrameworkGridViewModel.swift */,
 				086283432566692E00667ACE /* FrameworkTitleView.swift */,
 				9E9DD492256CE09F00D8DC0C /* FrameworkDetailView.swift */,
@@ -157,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E9DD49F256CFE0C00D8DC0C /* AFButton.swift in Sources */,
+				9E9DD4A6256DA29800D8DC0C /* SafariView.swift in Sources */,
 				086283352566654200667ACE /* MockData.swift in Sources */,
 				9E9DD493256CE09F00D8DC0C /* FrameworkDetailView.swift in Sources */,
 				086283442566692E00667ACE /* FrameworkTitleView.swift in Sources */,
