@@ -14,6 +14,9 @@ struct FrameworkDetailView: View {
     // MARK: - Bindings
     @Binding var isShowingDetailView: Bool
     
+    // MARK: - States
+    @State private var isShowingSafariView = false
+    
     var body: some View {
         VStack {
             HStack {
@@ -41,10 +44,13 @@ struct FrameworkDetailView: View {
             Spacer()
             
             Button {
-                print(framework.urlString)
+                isShowingSafariView = true
             } label: {
                 AFButton(title: "Learn More")
             }
+            .fullScreenCover(isPresented: $isShowingSafariView, content: {
+                SafariView(url: URL(string: framework.urlString) ?? URL(string: "www.apple.com")!)
+            })
             
             Spacer()
         }
